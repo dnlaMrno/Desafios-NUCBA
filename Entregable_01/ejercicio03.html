@@ -13,39 +13,34 @@
     </header>
 
    <form>
-    <div>
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre">
-    </div>
-    <div>
+        <br>
+        <br>
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido" name="apellido">
-    </div>
-    <div>
-        <fieldset>
-            <legend>Modalidad de Cursada:</legend>
-            <input type="radio" id="ondemand" name="modalidad" value="ondemand">
-            <label for="ondemand">On-Demand</label>
-            <br>
-            <input type="radio" id="envivo" name="modalidad" value="envivo">
-            <label for="envivo">En Vivo</label>
-        </fieldset>
-    </div>
-    <div>
+        <br>
+        <br>
+        <span id="modalidad-label">Modalidad de la cursada</span>
+        <input type="radio" id="ondemand" name="modalidad" value="ondemand" aria-labelledby="modalidad-label">
+        <label for="ondemand">On-Demand</label>
+        <input type="radio" id="envivo" name="modalidad" value="envivo" aria-labelledby="modalidad-label">
+        <label for="envivo">En Vivo</label>
+        <br>
+        <br>
         <label for="email">Correo:</label>
         <input type="email" id="email" name="email">
-    </div>
-    <div>
+        <br>
+        <br>
         <input type="checkbox" id="informacion" name="informacion" value="informacion">
         <label for="informacion">Deseo recibir información sobre nuevos posteos en la plataforma Nucba.</label>
-    </div>
-    <div>
+        <br>
+        <br>
         <input type="checkbox" id="terminos" name="terminos" value="terminos">
         <label for="terminos">Declaro que leí los términos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
-    </div>
-    <div>
+        <br>
+        <br>
         <button type="submit">Enviar</button>
-    </div>
 </form>
     <br>
     <br>
