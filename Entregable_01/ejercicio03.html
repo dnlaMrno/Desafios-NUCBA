@@ -12,32 +12,41 @@
         </h1>
     </header>
 
-    <form>
+   <form>
+    <div>
         <label for="nombre">Nombre:</label>
-            <input type="text">
+        <input type="text" id="nombre" name="nombre">
+    </div>
+    <div>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+    </div>
+    <div>
+        <fieldset>
+            <legend>Modalidad de Cursada:</legend>
+            <input type="radio" id="ondemand" name="modalidad" value="ondemand">
+            <label for="ondemand">On-Demand</label>
             <br>
-            <br>
-            <label for="apellido">Apellido:</label>
-            <input type="text">
-            <br>
-            <br>
-            <label for="apellido">Modalidad de Cursada:</label>
-            <input type= "radio" name="lenguaje" value="html">On-Demand
-            <input type="radio" name="lenguaje" value="javascript">En vivo
-            <br>
-            <br>
-            <label for="email">Correo:</label>
-            <input type="text">
-            <br>
-            <br>
-            <input type= "checkbox" name="lenguaje" value="html">Deseo recibir informacion sobre nuevos posteos en la plataforma Nucba.
-            <br>
-            <br>
-            <input type="checkbox" name="lenguaje" value="javascript">Declaro que lei los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.
-            <br>
-            <br>
-            <button type="submit">Enviar</button>
-    </form>
+            <input type="radio" id="envivo" name="modalidad" value="envivo">
+            <label for="envivo">En Vivo</label>
+        </fieldset>
+    </div>
+    <div>
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email">
+    </div>
+    <div>
+        <input type="checkbox" id="informacion" name="informacion" value="informacion">
+        <label for="informacion">Deseo recibir información sobre nuevos posteos en la plataforma Nucba.</label>
+    </div>
+    <div>
+        <input type="checkbox" id="terminos" name="terminos" value="terminos">
+        <label for="terminos">Declaro que leí los términos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
+    </div>
+    <div>
+        <button type="submit">Enviar</button>
+    </div>
+</form>
     <br>
     <br>
     <a href="index.html"><strong>VOLVERAL INICIO</strong></a>
