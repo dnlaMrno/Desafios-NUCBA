@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #222;
+    font-family: "Poppins", sans-serif;
+}
+
+.info-container{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    border: 1px solid #fff;
+    margin: auto;
+}
+
+.info-container h1 {
+    font-size: 33px;
+    color: #fff;
+    margin: 20px 150px;
+    text-shadow:2px 4px 2px #00c5ff9c;
+}
+
+.info-container img {
+    margin: 0 90px;
+    mask-image: radial-gradient(circle 250px at 52% 50%, black 55%, transparent 76%);
+}
+.info-container ul {
+    border: 1px solid #fff;
+    width: 290px;
+    margin: 20px;
+    padding: 15px;
+    box-shadow: -10px -6px 5px #0dff0045;
+}
+
+.info-container ul li {
+    font-size: 16px;
+    color: #00c5ff;
+    list-style-type: none;
+}
+
+.info-container ul li:nth-child(2n) {
+    color: #0dff00b5;
+}
+
+
+.info-container p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    width: 500px;
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+    margin-left: 75px;
+    padding: 15px 25px;
+    box-shadow: 10px -6px 5px #00c5ff47;
+}
+
+.info-container p strong {
+    color: #00c5ff ;
+}
+
+.info-container p a {
+    font-size: 14px;
+    text-decoration: none;
+    color:#0dff00b5;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.info-container p a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.form-container {
+    color: #fff;
+    width: 600px;
+    margin: 20px auto;
+}
+
+.form-container fieldset {
+    padding: 10px 0 0 20px;
+}
+
+.form-container label {
+    display: block;
+    padding-left: 5px;
+}
+
+.form-container input{
+    border-radius: 7px;
+    padding: 7px;
+    border: 1px solid #fff;
+}
+
+.form-container textarea {
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.form-container button {
+    color: #fff;
+    margin: 15px 0;
+    width: 120px;
+    height: 50px;
+    padding: 5px 20px;
+    border-radius: 7px;
+    border-image: linear-gradient(to right, #00c5ff, #0dff00b5) 1;
+    background: #222;
+}
