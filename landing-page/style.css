@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-section .nav-section {
+    position: relative;
+    z-index: 999;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid #ffffff47;
+    background: rgba(33, 28, 28, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+}
+
+.header-section .nav-section img {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.header-section .nav-section ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-section .nav-option ul li {
+    list-style-type: none;
+    margin: 0 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.header-section .nav-option ul li:hover {
+    text-decoration: underline; 
+}
+
+.header-section .header-bg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    filter: brightness(0.5);
+}
+
+.header-section .redes-sideBar {
+    position: absolute;
+    right: 0;
+    width: 60px;
+    height: 150px;
+    background: rgba(33, 28, 28, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.7px);
+    -webkit-backdrop-filter: blur(6.7px);
+}
+
+.header-section .icon-redes ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.header-section .icon-redes ul li {
+    list-style-type: none;
+    margin: 4px 0 ;
+}
+
+.header-section .icon-redes ul li img {
+    width: 25px;
+    height: 25px;
+}
